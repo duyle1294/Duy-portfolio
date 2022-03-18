@@ -256,6 +256,7 @@ main p{
 /* designs skills section stars */
 .designs-skills  #logo{
     width: 3rem;
+    border-radius: 50%;
 }
 
 .designs-skills .skills-stars .star{
@@ -282,10 +283,13 @@ main p{
 }
 
 #design-skills .videos{
-    width: 100%;
-    margin-top: 3rem;
+    /* width: 100%; */
+    margin-top: 2rem;
 }
 
+.practice{
+    margin-bottom: 3rem;
+}
 /* designs skills section ends */
 
 /* main section ends */
