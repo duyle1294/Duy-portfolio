@@ -178,10 +178,10 @@ section{
 }
 
 .home .image img{
-    /* height: 60rem; */
+    height: 60rem;
     padding: 2rem;
     border: var(--boder_bold);
-    width: 54rem;
+/*     width: 54rem; */
 }
 
 .home .content h3{
