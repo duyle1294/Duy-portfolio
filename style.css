@@ -72,7 +72,7 @@ body.active{
     background-color: var(--black);
     color: #fff;
     font-size: 2rem;
-    z-index: 99;
+    z-index: 999;
 }
 
 .btn:hover{
@@ -150,6 +150,7 @@ section{
     background-color: var(--black);
     color: #fff;
     cursor: pointer;
+    z-index: 999;
 }
 
 #menu-btn:hover{
@@ -646,6 +647,12 @@ section{
     .portfolio .box-container .box{
         height: auto;
     }
+
+    
+    .home .image img{
+        height: 100%;
+        padding: 2rem;
+    }
     
 }
 
@@ -661,6 +668,10 @@ section{
 
     .about .row .content .box-container{
         display: block;
+    }
+
+    .portfolio .box-container{
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     }
 
 }
